@@ -1,3 +1,5 @@
+@use '../abstracts/variables' as *;
+
 @font-face{
     src: url("/assets/fonts/IBMPlexSans-VariableFont_wdth,wght.ttf");
     font-family: "IBM Plex Sans";
@@ -15,7 +17,7 @@
 }
 
 @font-face{
-    src:url("/assets/fonts/Oxanium-VariableFont_wght.ttf");
+    src: url("/assets/fonts/Oxanium-VariableFont_wght.ttf");
     font-family: "Oxanium";
     font-weight:100 900;
     font-style:normal;
@@ -23,7 +25,7 @@
 }
 
 @font-face{
-    src:url("/assets/fonts/ScienceGothic-VariableFont_CTRS,slnt,wdth,wght.ttf");
+    src: url("/assets/fonts/ScienceGothic-VariableFont_CTRS,slnt,wdth,wght.ttf");
     font-family: "Science Gothic";
     font-weight:100 900;
     font-style:normal;
@@ -31,9 +33,27 @@
 }
 
 @font-face{
-    src:url("/assets/fonts/SmoochSans-VariableFont_wght.ttf");
+    src: url("/assets/fonts/SmoochSans-VariableFont_wght.ttf");
     font-family: "Smooch Sans";
     font-weight:100 900;
     font-style:normal;
     font-display:swap;
+}
+
+// TEXT HIERARCHY //
+
+body, p, li, span, input, textarea, b, strong, em, small, sub, sup{
+    font-family: $IBMPlexSans;
+}
+
+a, button, .btn, .link{
+    font-family:$SmoochSans;
+}
+
+h1, h3, h5{
+    font-family:$ScienceGothic;
+}
+
+h2, h4, h6{
+    font-family:$Oxanium;
 }

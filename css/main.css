@@ -11473,7 +11473,7 @@
   font-family: "IBM Plex Sans";
   font-weight: 100 900;
   font-style: normal;
-  font-display: swapl;
+  font-display: swap;
 }
 @font-face {
   src: url("/assets/fonts/IBMPlexSans-Italic-VariableFont_wdth,wght.ttf");
@@ -11502,4 +11502,19 @@
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
+}
+body, p, li, span, input, textarea, b, strong, em, small, sub, sup {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+a, button, .btn, .link {
+  font-family: "Smooch Sans", sans-serif;
+}
+
+h1, h3, h5 {
+  font-family: "Science Gothic", sans-serif;
+}
+
+h2, h4, h6 {
+  font-family: "Oxanium", sans-serif;
 }/*# sourceMappingURL=main.css.map */
