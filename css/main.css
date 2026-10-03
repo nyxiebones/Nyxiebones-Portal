@@ -11586,6 +11586,10 @@ a, button {
   font-weight: 500;
 }
 
+#header .fa {
+  font-size: clamp(0.875rem, 1vw, 1rem);
+}
+
 .buttons {
   width: 100%;
 }
@@ -11595,6 +11599,10 @@ a, button {
   border: none;
   box-shadow: none;
   flex: 1;
+}
+
+#header .fa {
+  font-size: 14px;
 }
 
 .post {
@@ -11797,6 +11805,7 @@ a, button {
 
 #sidebar img {
   width: 75%;
+  border-radius: 50%;
 }
 
 #documents {
