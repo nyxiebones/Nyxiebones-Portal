@@ -1,5 +1,7 @@
+@use '../abstracts/variables' as *;
 #sidebar{
     width:20vw;
+    padding:$padding;
 }
 
 #sidebar-header{

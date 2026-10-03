@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -11536,6 +11537,11 @@ h1, h3, h5 {
   text-shadow: 0 5px 5px rgb(189, 254, 230);
 }
 
+li::marker {
+  content: "♡ ";
+  font-weight: bold;
+}
+
 h2, h4, h6 {
   font-family: "Oxanium", sans-serif;
 }
@@ -11607,6 +11613,7 @@ a, button {
 .nav-button {
   padding-right: 1rem;
   padding-left: 1rem;
+  flex: 1;
 }
 
 #header-top .fa {
@@ -11811,6 +11818,7 @@ a, button {
 
 #sidebar {
   width: 20vw;
+  padding: 1rem;
 }
 
 #sidebar-header {
@@ -11830,14 +11838,15 @@ a, button {
 
 #foot {
   height: 5vh;
+  padding: 1rem;
 }
 
 header {
   height: 20vh;
 }
 
-.nav-button {
-  flex: 1;
+#header-top {
+  padding: 1rem;
 }
 
 #page {

@@ -40,7 +40,9 @@ $space-sm:0.5rem;
 $space-md:1rem;
 $space-lg:2rem;
 $space-xl:4rem;
-
+//
+$padding:$space-md;
+$margin:$space-lg;
 
 $IBMPlexSans: "IBM Plex Sans", sans-serif; // Body Text
 $Oxanium: "Oxanium", sans-serif; // Sub headers

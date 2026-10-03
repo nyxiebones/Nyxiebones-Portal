@@ -56,6 +56,10 @@ h1, h3, h5{
     -webkit-text-stroke:2px $bp;
     text-shadow:0 5px 5px $bt;
 }
+li::marker{
+    content:'♡ ';
+    font-weight:bold;
+}
 
 h2, h4, h6{
     font-family:$Oxanium;
