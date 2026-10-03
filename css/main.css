@@ -11586,6 +11586,17 @@ a, button {
   font-weight: 500;
 }
 
+.buttons {
+  width: 100%;
+}
+
+.buttons button {
+  background: none;
+  border: none;
+  box-shadow: none;
+  flex: 1;
+}
+
 .post {
   text-align: center;
 }
@@ -11782,6 +11793,10 @@ a, button {
 
 #sidebar-header {
   width: 100%;
+}
+
+#sidebar img {
+  width: 75%;
 }
 
 #documents {
