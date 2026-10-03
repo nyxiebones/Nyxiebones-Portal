@@ -1,0 +1,91 @@
+@use '../abstracts/mixins' as *;
+
+.wrapper-row{
+    @include wrapper-row;
+}
+
+.wrapper-column{
+    @include wrapper-column;
+}
+
+.wrapper-center{
+    @include wrapper-center;
+}
+
+.wrapper-center-column{
+    @include wrapper-center-column;
+}
+
+
+
+.wrapper-row-between{
+    @include wrapper-row-between;
+}
+
+.wrapper-column-between{
+    @include wrapper-column-between;
+}
+
+.wrapper-row-around{
+    @include wrapper-row-around;
+}
+
+.wrapper-column-around{
+    @include wrapper-column-around;
+}
+
+.wrapper-row-evenly{
+    @include wrapper-row-evenly;
+}
+
+.wrapper-column-evenly{
+    @include wrapper-column-evenly;
+}
+
+.wrapper-row-center{
+    @include wrapper-row-center;
+}
+
+.wrapper-column-center{
+    @include wrapper-column-center;
+}
+
+.wrapper-row-start{
+    @include wrapper-row-start;
+}
+
+.wrapper-column-start{
+    @include wrapper-column-start;
+}
+
+.wrapper-row-end{
+    @include wrapper-row-end;
+}
+
+.wrapper-column-end{
+    @include wrapper-column-end;
+}
+
+.wrapper-row-stretch{
+    @include wrapper-row-stretch;
+}
+
+.wrapper-column-stretch{
+    @include wrapper-column-stretch;
+}
+
+.wrapper-row-align-start{
+    @include wrapper-row-align-start;
+}
+
+.wrapper-column-align-start{
+    @include wrapper-column-align-start;
+}
+
+.wrapper-row-align-end{
+    @include wrapper-row-align-end;
+}
+
+.wrapper-column-align-end{
+    @include wrapper-column-align-end;
+}

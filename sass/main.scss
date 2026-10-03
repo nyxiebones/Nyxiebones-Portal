@@ -9,3 +9,5 @@ $fa-font-path: '../assets/webfonts' !default;
 @use 'abstracts/variables' as *;
 
 @use 'base/typography' as *;
+
+@use 'components/wrappers' as *;

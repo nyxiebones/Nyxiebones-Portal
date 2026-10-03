@@ -1,0 +1,121 @@
+@use 'variables' as *;
+
+@mixin wrapper-row{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+@mixin wrapper-column{
+    display:flex;
+    flex-direction:column;
+}
+
+@mixin wrapper-center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+@mixin wrapper-center-column{
+    @include wrapper-column;
+    justify-content:center;
+    align-items:center;
+}
+
+@mixin wrapper-center-row{
+    @include wrapper-row;
+    justify-content:center;
+    align-items:center;
+}
+
+
+@mixin wrapper-row-between{
+    @include wrapper-row;
+    justify-content:space-between;
+}
+
+@mixin wrapper-column-between{
+    @include wrapper-column;
+    justify-content:space-between;
+}
+
+@mixin wrapper-row-around{
+    @include wrapper-row;
+    justify-content:space-around;
+}
+
+@mixin wrapper-column-around{
+    @include wrapper-column;
+    justify-content:space-around;
+}
+
+@mixin wrapper-row-evenly{
+    @include wrapper-row;
+    justify-content:space-evenly;
+}
+
+@mixin wrapper-column-evenly{
+    @include wrapper-column;
+    justify-content:space-evenly;
+}
+
+@mixin wrapper-row-center{
+    @include wrapper-row;
+    justify-content:center;
+}
+
+@mixin wrapper-column-center{
+    @include wrapper-column;
+    justify-content:center;
+}
+
+@mixin wrapper-row-start{
+    @include wrapper-row;
+    justify-content:flex-start;
+}
+
+@mixin wrapper-column-start{
+    @include wrapper-column;
+    justify-content:flex-start;
+}
+
+@mixin wrapper-row-end{
+    @include wrapper-row;
+    justify-content:flex-end;
+}
+
+@mixin wrapper-column-end{
+    @include wrapper-column;
+    justify-content:flex-end;
+}
+
+@mixin wrapper-row-stretch{
+    @include wrapper-row;
+    align-items:stretch;
+}
+
+@mixin wrapper-column-stretch{
+    @include wrapper-column;
+    align-items:stretch;
+}
+
+@mixin wrapper-row-align-start{
+    @include wrapper-row;
+    align-items:flex-start;
+}
+
+@mixin wrapper-column-align-start{
+    @include wrapper-column;
+    align-items:flex-start;
+}
+
+@mixin wrapper-row-align-end{
+    @include wrapper-row;
+    align-items:flex-end;
+}
+
+@mixin wrapper-column-align-end{
+    @include wrapper-column;
+    align-items:flex-end;
+}
