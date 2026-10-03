@@ -8,6 +8,13 @@ $fa-font-path: '../assets/webfonts' !default;
 @use 'abstracts/mixins' as *;
 @use 'abstracts/variables' as *;
 
+@use 'base/reset' as *;
 @use 'base/typography' as *;
 
 @use 'components/wrappers' as *;
+
+@use 'layout/aside' as *;
+@use 'layout/documents' as *;
+@use 'layout/footer' as *;
+@use 'layout/header' as *;
+@use 'layout/page' as *;

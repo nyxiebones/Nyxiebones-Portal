@@ -95,6 +95,16 @@
     @include wrapper-column-align-start;
 }
 
+.wrapper-row-align-center{
+    @include wrapper-row;
+    align-items:center;
+}
+
+.wrapper-column-align-center{
+    @include wrapper-column;
+    align-items:center;
+}
+
 .wrapper-row-align-end{
     @include wrapper-row-align-end;
 }

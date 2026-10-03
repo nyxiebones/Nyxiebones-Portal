@@ -11468,6 +11468,22 @@
   --fa-style: 900;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 0;
+}
+
 @font-face {
   src: url("/assets/fonts/IBMPlexSans-VariableFont_wdth,wght.ttf");
   font-family: "IBM Plex Sans";
@@ -11679,6 +11695,19 @@ h2, h4, h6 {
   align-items: flex-start;
 }
 
+.wrapper-row-align-center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.wrapper-column-align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .wrapper-row-align-end {
   display: flex;
   flex-direction: row;
@@ -11690,4 +11719,35 @@ h2, h4, h6 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+#sidebar {
+  width: 20vw;
+}
+
+#sidebar-header {
+  width: 100%;
+}
+
+#documents {
+  width: 80vw;
+  height: 75vh;
+  overflow-y: auto;
+}
+
+.post {
+  width: 50%;
+  height: 100%;
+}
+
+#foot {
+  height: 5vh;
+}
+
+header {
+  height: 20vh;
+}
+
+#page {
+  height: 75vh;
 }/*# sourceMappingURL=main.css.map */
