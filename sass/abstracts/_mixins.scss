@@ -16,6 +16,34 @@
     justify-content:center;
     align-items:center;
 }
+@mixin wrapper-row-center-between{
+    @include wrapper-row-between;
+    align-items:center;
+}
+
+@mixin wrapper-column-center-between{
+    @include wrapper-column-between;
+    align-items:center;
+}
+
+@mixin wrapper-row-center-around{
+    @include wrapper-row-around;
+    align-items:center;
+}
+
+@mixin wrapper-column-center-around{
+    @include wrapper-column-around;
+    align-items:center;
+}
+
+@mixin wrapper-row-center-evenly{
+    @include wrapper-row-evenly;
+    align-items:center;
+}
+@mixin wrapper-column-center-evenly{
+    @include wrapper-column-evenly;
+    align-items:center;
+}
 
 @mixin wrapper-center-column{
     @include wrapper-column;

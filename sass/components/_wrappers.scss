@@ -8,16 +8,6 @@
     @include wrapper-column;
 }
 
-.wrapper-center{
-    @include wrapper-center;
-}
-
-.wrapper-center-column{
-    @include wrapper-center-column;
-}
-
-
-
 .wrapper-row-between{
     @include wrapper-row-between;
 }
@@ -26,6 +16,29 @@
     @include wrapper-column-between;
 }
 
+.wrapper-row-center-between{
+    @include wrapper-row-center-between;
+}
+
+.wrapper-column-center-between{
+    @include wrapper-column-center-between;
+}
+
+.wrapper-row-center-around{
+    @include wrapper-row-center-around;
+}
+
+.wrapper-column-center-around{
+    @include wrapper-column-center-around;
+}
+
+.wrapper-row-center-evenly{
+    @include wrapper-row-center-evenly;
+}
+
+.wrapper-column-center-evenly{
+    @include wrapper-column-center-evenly;
+}
 .wrapper-row-around{
     @include wrapper-row-around;
 }
