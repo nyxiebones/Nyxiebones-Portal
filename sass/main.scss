@@ -1,0 +1,9 @@
+$fa-font-path: '../assets/webfonts' !default;
+
+@use '../vendor/fontawesome/scss/fontawesome' as *;
+@use '../vendor/fontawesome/scss/regular' as *;
+@use '../vendor/fontawesome/scss/brands' as *;
+@use '../vendor/fontawesome/scss/solid' as *;
+
+@use 'abstracts/mixins' as *;
+@use 'abstracts/variables' as *;
