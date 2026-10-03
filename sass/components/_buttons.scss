@@ -1,3 +1,4 @@
+@use '../abstracts/variables' as *;
 .buttons{
     width:100%;
 }
@@ -9,3 +10,18 @@
     flex:1;
 }
 
+.nav-button{
+    padding-right:$space-md;
+    padding-left:$space-md;
+}
+
+
+#header-top .fa{
+    padding:$space-lg;
+    font-size:$h6;
+}
+
+.fa{
+    -webkit-text-stroke:1px $bp;
+    text-shadow:0px 5px 5px $bt;
+}

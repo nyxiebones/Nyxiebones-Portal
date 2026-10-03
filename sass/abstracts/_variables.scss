@@ -29,12 +29,17 @@ $o7:0.7;
 $o8:0.8;
 $o9:0.9;
 $o0:0;
-
 // gradients //
 
 $header-gradient:linear-gradient(180deg, $bp 90%, $bt 100%); // header/footer gradient
 $footer-gradient:linear-gradient(180deg, $bp 5%, $bt 90%);
 
+//spacing
+$space-xs:0.25rem;
+$space-sm:0.5rem;
+$space-md:1rem;
+$space-lg:2rem;
+$space-xl:4rem;
 
 
 $IBMPlexSans: "IBM Plex Sans", sans-serif; // Body Text
