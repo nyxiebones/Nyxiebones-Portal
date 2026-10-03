@@ -11480,10 +11480,6 @@ body, html {
   overflow: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  line-height: 0;
-}
-
 @font-face {
   src: url("/assets/fonts/IBMPlexSans-VariableFont_wdth,wght.ttf");
   font-family: "IBM Plex Sans";
@@ -11733,11 +11729,6 @@ h2, h4, h6 {
   width: 80vw;
   height: 75vh;
   overflow-y: auto;
-}
-
-.post {
-  width: 50%;
-  height: 100%;
 }
 
 #foot {
