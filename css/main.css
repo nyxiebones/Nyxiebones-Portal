@@ -11517,4 +11517,145 @@ h1, h3, h5 {
 
 h2, h4, h6 {
   font-family: "Oxanium", sans-serif;
+}
+
+.wrapper-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.wrapper-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-row-between {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wrapper-column-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrapper-row-around {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.wrapper-column-around {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.wrapper-row-evenly {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.wrapper-column-evenly {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.wrapper-row-center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wrapper-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper-row-start {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.wrapper-column-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.wrapper-row-end {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.wrapper-column-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.wrapper-row-stretch {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.wrapper-column-stretch {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.wrapper-row-align-start {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.wrapper-column-align-start {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.wrapper-row-align-end {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.wrapper-column-align-end {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }/*# sourceMappingURL=main.css.map */
