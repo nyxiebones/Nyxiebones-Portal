@@ -1,5 +1,8 @@
 @use '../abstracts/variables' as *;
 header{
     height:20vh;
-    background:$header-gradient;
+}
+
+.nav-button{
+    flex:1;
 }
