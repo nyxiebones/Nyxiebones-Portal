@@ -11791,11 +11791,13 @@ a, button {
 }
 
 #foot {
+  background: linear-gradient(180deg, rgb(206, 190, 255) 5%, rgb(189, 254, 230) 90%);
   height: 5vh;
 }
 
 header {
   height: 20vh;
+  background: linear-gradient(180deg, rgb(206, 190, 255) 90%, rgb(189, 254, 230) 100%);
 }
 
 #page {

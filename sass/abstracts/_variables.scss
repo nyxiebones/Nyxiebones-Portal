@@ -1,3 +1,42 @@
+$bp:rgb(206, 190, 255);
+$bs:rgb(243, 255, 189);
+$bt:rgb(189, 254, 230);
+
+$red:rgb(253, 188, 192);
+$orange:rgb(254, 231, 189);
+$yellow:rgb(255, 249, 189);
+$green:rgb(190, 255, 190);
+$blue:rgb(187, 246, 254);
+$indigo:rgb(157, 151, 197);
+$violet:rgb(228, 189, 254);
+
+//gradients
+$g1:rgb(245, 243, 254);
+$g2:rgb(220, 208, 254);
+$g3:rgb(191, 173, 255);
+$g4:rgb(142, 122, 217);
+$g5:rgb(82, 69, 122);
+$g6:rgb(26, 23, 40);
+
+//opacity
+$o1:0.1;
+$o2:0.2;
+$o3:0.3;
+$o4:0.4;
+$o5:0.5;
+$o6:0.6;
+$o7:0.7;
+$o8:0.8;
+$o9:0.9;
+$o0:0;
+
+// gradients //
+
+$header-gradient:linear-gradient(180deg, $bp 90%, $bt 100%); // header/footer gradient
+$footer-gradient:linear-gradient(180deg, $bp 5%, $bt 90%);
+
+
+
 $IBMPlexSans: "IBM Plex Sans", sans-serif; // Body Text
 $Oxanium: "Oxanium", sans-serif; // Sub headers
 $ScienceGothic: "Science Gothic", sans-serif; // Main headers
