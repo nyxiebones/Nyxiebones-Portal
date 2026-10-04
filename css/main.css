@@ -11827,13 +11827,8 @@ a, button {
 }
 
 #sidebar {
-  background-color: rgba(142, 122, 217, 0.8);
+  background-color: rgba(142, 122, 217, 0.9);
   width: 20vw;
-  padding: 1rem;
-}
-
-#sidebar-header {
-  width: 100%;
 }
 
 #sidebar img {
@@ -11852,7 +11847,7 @@ a, button {
 }
 
 header {
-  height: 20vh;
+  min-height: 20vh;
 }
 
 #header-top {

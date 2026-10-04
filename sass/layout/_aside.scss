@@ -2,13 +2,7 @@
 @use '../abstracts/variables' as *;
 
 #sidebar{
-    background-color:$light-modules;
     width:20vw;
-    padding:$padding;
-}
-
-#sidebar-header{
-    width:100%;
 }
 
 #sidebar img{

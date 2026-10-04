@@ -7,13 +7,14 @@
     <title>Nyxiebones' Portal</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="shortcut icon" href="/assets/icons/favicon.png" type="image/x-icon">
+    <script src="/js/index.js" defer></script>
 </head>
 
 <body>
     <header id="header" class="wrapper-column-between">
         <section id="header-top" class="wrapper-row-center-between">
             <h1 class="text-stroke-2">NYXIEBONES</h1>
-            <i class="fa fa-sun"></i>
+            <button id="toggle-theme" type="button"><i class="fa fa-sun"></i></button>
         </section>
         <section id="header-nav" class="wrapper-row-center-between">
             <button class="nav-button wrapper-row-center-between">
@@ -36,7 +37,7 @@
                 <h6>journal</h6>
                 <i class="fa fa-book-open"></i>
             </button>
-            <button class="nav-button popup-button wrapper-row-center-between" type="button">
+            <button id="toggle-popup" class="nav-button popup-button wrapper-row-center-between" type="button">
                 <h6>more</h6>
                 <i class="fa fa-plus"></i>
             </button>
