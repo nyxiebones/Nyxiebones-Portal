@@ -34,6 +34,15 @@ $o0:0;
 $header-gradient:linear-gradient(180deg, $bp 90%, $bt 100%); // header/footer gradient
 $footer-gradient:linear-gradient(180deg, $bp 5%, $bt 90%);
 
+// theming //
+ $light-bg:$g2;
+ $light-text:rgb($g5, $o6);
+ $light-modules:rgb($g4, $o8);
+
+ $dark-bg:$g6;
+ $dark-text:rgb($g2, $o6);
+ $dark-modules:rgb($g4, $o4);
+
 //spacing
 $space-xs:0.25rem;
 $space-sm:0.5rem;

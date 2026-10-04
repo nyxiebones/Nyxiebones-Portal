@@ -1,5 +1,8 @@
+@use '../abstracts/mixins' as *;
 @use '../abstracts/variables' as *;
+
 #sidebar{
+    background-color:$light-modules;
     width:20vw;
     padding:$padding;
 }
