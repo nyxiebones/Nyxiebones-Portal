@@ -11827,6 +11827,7 @@ a, button {
 }
 
 #sidebar {
+  background-color: rgba(142, 122, 217, 0.8);
   width: 20vw;
   padding: 1rem;
 }
