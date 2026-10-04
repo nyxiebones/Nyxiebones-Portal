@@ -10,7 +10,7 @@ themeButton.addEventListener("click", () => {
     }
 });
 
-const popupButtons = document.querySelectorAll("[data-popup]");
+const popupButtons = document.querySelectorAll("[data-popup]:not(.popup-menu");
 const popupCloseButtons = document.querySelectorAll(".popup-close");
 
 popupButtons.forEach(button => {
