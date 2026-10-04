@@ -101,7 +101,7 @@ h5{
 }
 
 h6, a, button{
-    font-size:$h6;
+    font-size:$body;
 }
 
 a, button{
@@ -111,4 +111,8 @@ a, button{
 
 .fa{
     font-size:$body;
+}
+
+button{
+    text-transform:uppercase;
 }
