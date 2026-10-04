@@ -1,0 +1,6 @@
+@use '../abstracts/variables' as *;
+
+.fa{
+    -webkit-text-stroke:1px $bp;
+    text-shadow:0px 5px 5px $bt;
+}

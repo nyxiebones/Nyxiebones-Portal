@@ -1,0 +1,8 @@
+@use '../abstracts/variables' as *;
+header{
+    height:20vh;
+}
+
+#header-top{
+    padding:$padding;
+}
