@@ -6,7 +6,32 @@
     color:$light-text;
 }
 
+.light-theme aside{
+    background-color:$light-modules;
+}
+
+.light-theme .fa{
+    color:$dark-modules;
+}
+
+.dark-theme .text-stroke-1{
+    @include dark-text-stroke-1;
+
+}
+.dark-theme .text-stroke-2{
+    @include dark-text-stroke-2;
+}
+
+.dark-theme .fa{
+    @include dark-text-stroke-1;
+    color:$light-modules;
+
+}
 .dark-theme{
     background-color:$dark-bg;
     color:$dark-text;
+}
+
+.dark-theme aside{
+    background-color:$dark-modules;
 }

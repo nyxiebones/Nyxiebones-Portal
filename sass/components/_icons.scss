@@ -4,3 +4,11 @@
 .fa{
     @include text-stroke-1;
 }
+
+#header .fa{
+    font-size:$h4;
+}
+
+aside .fa{
+    font-size:$h4;
+}
