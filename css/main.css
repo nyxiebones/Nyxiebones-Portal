@@ -11875,70 +11875,11 @@ header {
   min-height: 20vh;
 }
 
-#header-top {
+#header-top, #top-nav {
   padding: 1rem;
 }
 
 #page {
   background-image: url("/assets/icons/system/bg.png");
   height: 75vh;
-}
-
-.light-theme {
-  background-color: rgb(245, 243, 254);
-  color: rgba(82, 69, 122, 0.6);
-}
-
-.light-theme .fa {
-  color: rgba(142, 122, 217, 0.9);
-}
-
-.light-theme a {
-  color: rgb(206, 190, 255);
-  --webkit-text-stroke:1px rgb($g6, $o3);
-}
-
-.light-theme button {
-  -webkit-text-stroke: 1px rgb(206, 190, 255);
-  text-shadow: 0 5px 5px rgb(189, 254, 230);
-  color: rgb(157, 151, 197);
-}
-
-.light-theme aside, .light-theme .post, .light-theme .popup-card {
-  background-color: rgba(220, 208, 254, 0.9);
-}
-
-.dark-theme .text-stroke-1 {
-  -webkit-text-stroke: 1px rgba(206, 190, 255, 0.5);
-  text-shadow: 0 3px 3px rgb(228, 189, 254);
-}
-
-.dark-theme aside, .light-theme .post, .dark-theme .popup-card {
-  background-color: rgba(142, 122, 217, 0.9);
-}
-
-.dark-theme .text-stroke-2 {
-  -webkit-text-stroke: 2px rgba(206, 190, 255, 0.5);
-  text-shadow: 0 3px 3px rgb(228, 189, 254);
-}
-
-.dark-theme a {
-  color: rgb(228, 189, 254);
-  --webkit-text-stroke:1px rgb($g1, $o8);
-}
-
-.dark-theme .fa,
-.dark-theme button {
-  -webkit-text-stroke: 1px rgba(206, 190, 255, 0.5);
-  text-shadow: 0 3px 3px rgb(228, 189, 254);
-  color: rgba(82, 69, 122, 0.8);
-}
-
-.dark-theme {
-  background-color: rgb(26, 23, 40);
-  color: rgba(220, 208, 254, 0.6);
-}
-
-.dark-theme button {
-  color: rgb(228, 189, 254);
 }/*# sourceMappingURL=main.css.map */
