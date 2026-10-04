@@ -26,52 +26,61 @@
             <h4 class="text-stroke-1">PORTAL</h4>
             <img src="/assets/img/sidebar.jpg" alt="Shizuku hxh">
             <div class="buttons wrapper-row-between">
-                <button><i class="fa fa-user"></i></button>
-                <button><i class="fa fa-globe"></i></button>
-                <button><i class="fa fa-handshake"></i></button>
-                <button><i class="fa fa-dollar"></i></button>
+                <button aria-label="about" data-popup="about"><i class="fa fa-user"></i></button>
+                <button aria-label="socials" data-popup="socials"><i class="fa fa-globe"></i></button>
+                <button aria-label="tradestatus" data-popup="tradestatus"><i class="fa fa-handshake"></i></button>
+                <button aria-label="support" data-popup="support"><i class="fa fa-dollar"></i></button>
             </div>
 
         </aside>
 
         <section id="documents" class="wrapper-column">
+            <!--navi-->
+            <section id="top-nav" class="wrapper-row-center-between">
+                <button class="nav-button wrapper-row-center-between">
+                    <h6>creative</h6>
+                    <i class="fa fa-palette"></i>
+                </button>
+                <button class="nav-button wrapper-row-center-between">
+                    <h6>docs</h6>
+                    <i class="fa fa-folder-open"></i>
+                </button>
+                <button class="nav-button wrapper-row-center-between">
+                    <h6>schedule</h6>
+                    <i class="fa fa-calendar"></i>
+                </button>
+                <button class="nav-button wrapper-row-center-between">
+                    <h6>resources</h6>
+                    <i class="fa fa-bookmark"></i>
+                </button>
+                <button class="nav-button wrapper-row-center-between">
+                    <h6>journal</h6>
+                    <i class="fa fa-book-open"></i>
+                </button>
+                <button class="nav-button popup-button wrapper-row-center-between" data-popup="navigation"
+                    aria-label="more">
+                    <h6>more</h6>
+                    <i class="fa fa-plus"></i>
+                </button>
+            </section>
             <!--popup-->
-            <nav class="popup-menu" aria-label="master navigation">
+            <nav class="popup-menu" data-popup="navigation">
+                <div class="popup-card">
+                    <button class="popup-close wrapper-row-center-between" type="button" aria-label="close">
+                        <h4 class="text-stroke-1">navigation</h4>
+                        <i class="fa fa-window-close"></i>
+                    </button>
+                    <div class="popup-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quo deleniti quam, atque est praesentium magnam aperiam nemo qui reiciendis dolorem neque a laborum rem fugit blanditiis, consectetur dignissimos molestias.</p>
+                    </div>
+                </div>
 
             </nav>
-
-
-            <!--posts and main page content-->
-            <section id="top-nav" class="wrapper-row-center-between">
-            <button class="nav-button wrapper-row-center-between">
-                <h6>creative</h6>
-                <i class="fa fa-palette"></i>
-            </button>
-            <button class="nav-button wrapper-row-center-between">
-                <h6>docs</h6>
-                <i class="fa fa-folder-open"></i>
-            </button>
-            <button class="nav-button wrapper-row-center-between">
-                <h6>schedule</h6>
-                <i class="fa fa-calendar"></i>
-            </button>
-            <button class="nav-button wrapper-row-center-between">
-                <h6>resources</h6>
-                <i class="fa fa-bookmark"></i>
-            </button>
-            <button class="nav-button wrapper-row-center-between">
-                <h6>journal</h6>
-                <i class="fa fa-book-open"></i>
-            </button>
-            <button id="toggle-popup" class="nav-button popup-button wrapper-row-center-between" type="button">
-                <h6>more</h6>
-                <i class="fa fa-plus"></i>
-            </button>
-        </section>
+            <!--popup-->
 
 
             <!-- placeholder-->
-            
+
 
             <!--placeholder-->
         </section>

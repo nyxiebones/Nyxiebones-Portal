@@ -11642,6 +11642,14 @@ aside .fa {
   font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
 
+.popup-menu {
+  display: none;
+}
+
+.popup-menu.active {
+  display: flex;
+}
+
 .post {
   text-align: center;
 }

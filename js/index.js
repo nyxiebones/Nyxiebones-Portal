@@ -9,3 +9,22 @@ themeButton.addEventListener("click", () => {
         themeIcon.classList.replace("fa-moon", "fa-sun");
     }
 });
+
+const popupButtons = document.querySelectorAll("[data-popup]");
+const popupCloseButtons = document.querySelectorAll(".popup-close");
+
+popupButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        const popupName = button.dataset.popup;
+        const popup = document.querySelector(`.popup-menu[data-popup="${popupName}"]`);
+
+        if (!popup) return;
+        popup.classList.add("active");
+    });
+});
+
+popupCloseButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        button.closest(".popup-menu").classList.remove("active");
+    });
+});
