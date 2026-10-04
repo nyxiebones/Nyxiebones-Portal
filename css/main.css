@@ -11855,4 +11855,14 @@ header {
 
 #page {
   height: 75vh;
+}
+
+.light-theme {
+  background-color: rgb(245, 243, 254);
+  color: rgba(82, 69, 122, 0.6);
+}
+
+.dark-theme {
+  background-color: rgb(26, 23, 40);
+  color: rgba(220, 208, 254, 0.6);
 }/*# sourceMappingURL=main.css.map */
