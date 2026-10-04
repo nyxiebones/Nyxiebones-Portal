@@ -6,10 +6,6 @@
     color:$light-text;
 }
 
-.light-theme aside{
-    background-color:$light-modules;
-}
-
 .light-theme .fa{
     color:$dark-modules;
 }
@@ -30,8 +26,4 @@
 .dark-theme{
     background-color:$dark-bg;
     color:$dark-text;
-}
-
-.dark-theme aside{
-    background-color:$dark-modules;
 }
