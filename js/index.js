@@ -19,6 +19,7 @@ popupButtons.forEach(button => {
         const popup = document.querySelector(`.popup-menu[data-popup="${popupName}"]`);
 
         if (!popup) return;
+        document.querySelectorAll(".popup-menu-active").forEach(popup => popup.classList.remove("active"));
         popup.classList.add("active");
     });
 });
