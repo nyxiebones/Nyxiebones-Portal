@@ -11,6 +11,7 @@ $fa-font-path: '../assets/webfonts' !default;
 @use 'base/reset' as *;
 @use 'base/typography' as *;
 
+@use 'components/accents' as *;
 @use 'components/buttons' as *;
 @use 'components/icons' as *;
 @use 'components/post' as *;
