@@ -20,7 +20,7 @@ popupButtons.forEach(button => {
 
         if (!popup) return;
         document.querySelectorAll(".popup-menu.active").forEach(popup => popup.classList.remove("active"));
-        popup.classList.add("active");
+        popup.classList.toggle("active");
     });
 });
 
