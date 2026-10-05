@@ -26,4 +26,6 @@ $fa-font-path: '../assets/webfonts' !default;
 @use 'layout/header' as *;
 @use 'layout/page' as *;
 
+@use 'utilities/responsive' as *;
+
 @use 'themes/lightdark' as *;

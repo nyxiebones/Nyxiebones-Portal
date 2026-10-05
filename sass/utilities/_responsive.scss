@@ -1,0 +1,20 @@
+@media screen and (max-width:1024px){
+    #documents{
+        width:100%;
+    }
+
+    #sidebar{
+        display:none;
+    }
+
+    #top-nav .nav-button:not([data-popup="navigation"]) {
+        display:none;
+    }
+    .navigation{
+        width:100%;
+    }
+
+    .nav-item{
+        width:50%;
+    }
+}

@@ -11951,4 +11951,22 @@ header {
 #page {
   background-image: url("/assets/icons/system/bg.png");
   height: 75vh;
+}
+
+@media screen and (max-width: 1024px) {
+  #documents {
+    width: 100%;
+  }
+  #sidebar {
+    display: none;
+  }
+  #top-nav .nav-button:not([data-popup=navigation]) {
+    display: none;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .nav-item {
+    width: 50%;
+  }
 }/*# sourceMappingURL=main.css.map */
