@@ -1,3 +1,4 @@
+@use '/sass/abstracts/mixins' as *;
 .popup-menu{
     display:none;
     width:100%;
@@ -5,7 +6,7 @@
 }
 
 .popup-menu.active{
-    display:flex;
+    @include wrapper-center;
 }
 
 .popup-card{
