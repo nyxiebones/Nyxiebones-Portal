@@ -10,7 +10,7 @@ themeButton.addEventListener("click", () => {
     }
 });
 
-const popupButtons = document.querySelectorAll("[data-popup]:not(.popup-menu");
+const popupButtons = document.querySelectorAll("[data-popup]:not(.popup-menu)");
 const popupCloseButtons = document.querySelectorAll(".popup-close");
 
 popupButtons.forEach(button => {
@@ -19,7 +19,7 @@ popupButtons.forEach(button => {
         const popup = document.querySelector(`.popup-menu[data-popup="${popupName}"]`);
 
         if (!popup) return;
-        document.querySelectorAll(".popup-menu.active").forEach(popup => popup.classList.remove("active"));
+        document.querySelectorAll(".popup-menuactive").forEach(popup => popup.classList.remove("active"));
         popup.classList.add("active");
     });
 });
