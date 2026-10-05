@@ -10,3 +10,25 @@ themeButton.addEventListener("click", () => {
     }
 });
 
+
+const popupButtons = document.querySelectorAll('.popup-button');
+const popupMenus = document.querySelectorAll('.popup-menu');
+const popupClose = document.querySelectorAll('.popup-close');
+
+popupButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const popupName = button.dataset.popup;
+        const popup = document.querySelector(`.popup-menu[data-popup="${popupName}"]`);
+
+        popupMenus.forEach(menu => {
+            menu.classList.remove('active');
+        });
+        popup.classList.add('active');
+    });
+});
+
+popupClose.forEach(close => {
+    close.addEventListener('click', () => {
+        close.closest('.popup-menu').classList.remove('active');
+    });
+});
