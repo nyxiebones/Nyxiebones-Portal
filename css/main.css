@@ -11493,6 +11493,11 @@ button {
   box-shadow: none;
 }
 
+a, .nav-button {
+  text-decoration: none;
+  color: black;
+}
+
 @font-face {
   src: url("/assets/fonts/IBMPlexSans-VariableFont_wdth,wght.ttf");
   font-family: "IBM Plex Sans";
