@@ -11670,6 +11670,10 @@ aside .fa {
   position: inside;
 }
 
+.top-nav {
+  padding: 1rem;
+}
+
 .popup-menu {
   display: none;
 }
@@ -11701,6 +11705,7 @@ aside .fa {
 
 .title-bar {
   padding: 1rem;
+  background-color: rgba(191, 173, 255, 0.9);
 }
 
 .wrapper-row {
@@ -12026,4 +12031,12 @@ body.dark-theme {
 
 .dark-theme .popup-menu.active {
   background-color: rgba(206, 190, 255, 0.8);
+}
+
+.light-theme .top-nav {
+  background-color: rgba(206, 190, 255, 0.7);
+}
+
+.dark-theme .top-nav {
+  background-color: rgba(189, 254, 230, 0.7);
 }/*# sourceMappingURL=main.css.map */

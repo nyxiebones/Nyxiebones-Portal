@@ -51,3 +51,12 @@ body.dark-theme{
 .dark-theme .popup-menu.active{
     background-color:rgb($bp, $o8);
 }
+
+.light-theme .top-nav{
+    background-color:rgb($bp, $o7);
+
+}
+
+.dark-theme .top-nav{
+    background-color:rgb($bt, $o7);
+}
