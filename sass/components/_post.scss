@@ -1,3 +1,6 @@
+@use '/sass/abstracts/variables' as *;
 .post{
     text-align:center;
+    width:50%;
+    margin:$padding auto;
 }
