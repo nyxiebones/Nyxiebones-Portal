@@ -11653,14 +11653,16 @@ aside .fa {
 
 .popup-menu {
   display: none;
-  width: 100%;
-  height: 100%;
 }
 
 .popup-menu.active {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
 }
 
 .popup-card {
@@ -11871,6 +11873,37 @@ aside .fa {
   align-items: center;
 }
 
+.wrapper-row-center-start {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.wrapper-column-center-end {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.wrapper-row-center-end {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.wrapper-column-center-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 #sidebar {
   width: 20vw;
 }
@@ -11881,6 +11914,7 @@ aside .fa {
 }
 
 #documents {
+  position: relative;
   width: 80vw;
   height: 75vh;
   overflow-y: auto;

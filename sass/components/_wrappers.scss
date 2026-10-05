@@ -115,3 +115,20 @@
 .wrapper-column-center-evenly{
     @include wrapper-column-center-evenly;
 }
+
+.wrapper-row-center-start{
+    @include wrapper-row-center-start;
+}
+
+.wrapper-column-center-end{
+    @include wrapper-row-center-end;
+}
+
+.wrapper-row-center-end{
+    @include wrapper-row-center-end;
+}
+
+
+.wrapper-column-center-end{
+    @include wrapper-column-center-end;
+}

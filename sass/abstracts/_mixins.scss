@@ -168,6 +168,30 @@
     align-items:center;
 }
 
+@mixin wrapper-row-center-start{
+    @include wrapper-row;
+    align-items:center;
+    justify-content:flex-start;
+
+}
+
+@mixin wrapper-column-center-start{
+    @include wrapper-column;
+    align-items:center;
+    justify-content:flex-start;
+}
+
+@mixin wrapper-row-center-end{
+    @include wrapper-row;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+@mixin wrapper-column-center-end{
+    @include wrapper-column;
+    align-items:center;
+    justify-content:flex-end;
+}
 //design
 @mixin text-stroke-1{
     -webkit-text-stroke:1px $bp;
