@@ -11648,10 +11648,20 @@ aside .fa {
 
 .popup-menu {
   display: none;
+  width: 100%;
+  height: 100%;
 }
 
 .popup-menu.active {
   display: flex;
+}
+
+.popup-card {
+  width: 50%;
+}
+
+.popup-close {
+  width: 100%;
 }
 
 .post {
