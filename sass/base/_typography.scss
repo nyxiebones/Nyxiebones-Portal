@@ -58,7 +58,9 @@ li::marker{
     content:'♡ ';
     font-weight:bold;
 }
-
+li{
+    list-style-position:inside;
+}
 h2, h4, h6{
     font-family:$Oxanium;
 }

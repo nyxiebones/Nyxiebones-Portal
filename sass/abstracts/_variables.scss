@@ -31,13 +31,19 @@ $o9:0.9;
 $o0:0;
 // gradients //
 
-$header-gradient:linear-gradient(180deg, $bp 90%, $bt 100%);
-$footer-gradient:linear-gradient(180deg, $bp 5%, $bt 90%);
+$light-header-gradient:linear-gradient(180deg, $bp 90%, $bt 100%);
+$light-footer-gradient:linear-gradient(180deg, $bp 5%, $bt 90%);
 $dark-header-gradient:linear-gradient(180deg, $g6 90%, $bp 100%);
 $dark-footer-gradient:linear-gradient(180deg, $bp 5%, $g6 90%);
 
-
 // theming //
+
+$light-module:rgb($g2, $o9);
+$dark-module:rgb($g4, $o9);
+
+$light-popup-module:rgb($g3, $o9);
+$dark-popup-module:rgb($g6, $o9);
+
 
 
 //spacing

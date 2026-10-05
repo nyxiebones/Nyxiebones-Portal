@@ -1,3 +1,53 @@
 @use '../abstracts/mixins' as *;
 @use '../abstracts/variables' as *;
 
+body.light-theme{
+    background-image:url('/assets/icons/system/bg-light.png');
+    background-color:$g1;
+}
+
+body.dark-theme{
+    background-image:url('/assets/icons/system/bg-dark.png');
+    background-color:$g6;
+}
+
+.light-theme header{
+    background:$light-header-gradient;
+}
+
+.dark-theme header{
+    background:$dark-header-gradient;
+}
+
+.light-theme footer{
+    background:$light-footer-gradient;
+}
+
+.dark-theme footer{
+    background:$dark-footer-gradient;
+}
+
+.light-theme .module{
+    background-color:$light-module;
+}
+
+.dark-theme .module{
+    background-color:$dark-module;
+}
+
+.light-theme .popup-module{
+    background-color:$light-popup-module;
+
+}
+
+.dark-theme .popup-module{
+    background-color:$dark-popup-module;
+}
+
+.light-theme .popup-menu.active{
+    background-color:rgb($indigo, $o6);
+}
+
+.dark-theme .popup-menu.active{
+    background-color:rgb($bp, $o8);
+}

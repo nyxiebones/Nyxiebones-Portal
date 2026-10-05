@@ -11550,6 +11550,10 @@ li::marker {
   font-weight: bold;
 }
 
+li {
+  list-style-position: inside;
+}
+
 h2, h4, h6 {
   font-family: "Oxanium", sans-serif;
 }
@@ -11674,7 +11678,7 @@ aside .fa {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-image: url("/assets/icons/system/cardbg.png");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -11693,6 +11697,10 @@ aside .fa {
   text-align: center;
   width: 50%;
   margin: 1rem auto;
+}
+
+.title-bar {
+  padding: 1rem;
 }
 
 .wrapper-row {
@@ -11969,4 +11977,53 @@ header {
   .nav-item {
     width: 50%;
   }
+}
+body.light-theme {
+  background-image: url("/assets/icons/system/bg-light.png");
+  background-color: rgb(245, 243, 254);
+}
+
+body.dark-theme {
+  background-image: url("/assets/icons/system/bg-dark.png");
+  background-color: rgb(26, 23, 40);
+}
+
+.light-theme header {
+  background: linear-gradient(180deg, rgb(206, 190, 255) 90%, rgb(189, 254, 230) 100%);
+}
+
+.dark-theme header {
+  background: linear-gradient(180deg, rgb(26, 23, 40) 90%, rgb(206, 190, 255) 100%);
+}
+
+.light-theme footer {
+  background: linear-gradient(180deg, rgb(206, 190, 255) 5%, rgb(189, 254, 230) 90%);
+}
+
+.dark-theme footer {
+  background: linear-gradient(180deg, rgb(206, 190, 255) 5%, rgb(26, 23, 40) 90%);
+}
+
+.light-theme .module {
+  background-color: rgba(220, 208, 254, 0.9);
+}
+
+.dark-theme .module {
+  background-color: rgba(142, 122, 217, 0.9);
+}
+
+.light-theme .popup-module {
+  background-color: rgba(191, 173, 255, 0.9);
+}
+
+.dark-theme .popup-module {
+  background-color: rgba(26, 23, 40, 0.9);
+}
+
+.light-theme .popup-menu.active {
+  background-color: rgba(157, 151, 197, 0.6);
+}
+
+.dark-theme .popup-menu.active {
+  background-color: rgba(206, 190, 255, 0.8);
 }/*# sourceMappingURL=main.css.map */

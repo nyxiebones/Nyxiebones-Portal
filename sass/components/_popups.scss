@@ -1,11 +1,12 @@
 @use '/sass/abstracts/mixins' as *;
+@use '/sass/abstracts/variables' as *;
 .popup-menu{
     display:none;
 }
 
 .popup-menu.active{
     @include wrapper-center;
-    background-color:white;
+    background-image:url("/assets/icons/system/cardbg.png");
     position:absolute;
     width:100%; 
     height:100%;
