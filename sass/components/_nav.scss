@@ -1,0 +1,15 @@
+@use '/sass/abstracts/variables' as *;
+.navigation{
+    flex-wrap:wrap;
+    gap:$padding;
+}
+
+.nav-item{
+    width:25%;
+    padding:$padding;
+    text-align:center;
+}
+
+.nav li{
+    position:inside;
+}

@@ -14,8 +14,10 @@ $fa-font-path: '../assets/webfonts' !default;
 @use 'components/accents' as *;
 @use 'components/buttons' as *;
 @use 'components/icons' as *;
+@use 'components/nav' as *;
 @use 'components/popups' as *;
 @use 'components/post' as *;
+@use 'components/title-bar' as *;
 @use 'components/wrappers' as *;
 
 @use 'layout/aside' as *;
