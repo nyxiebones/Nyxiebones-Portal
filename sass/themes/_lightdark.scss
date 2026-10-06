@@ -8,7 +8,7 @@ body.light-theme{
 
 body.dark-theme{
     background-image:url('/assets/icons/system/bg-dark.png');
-    background-color:$g6;
+    background-color:$g5;
 }
 
 .light-theme header{
@@ -45,18 +45,20 @@ body.dark-theme{
 }
 
 .light-theme .popup-menu.active{
-    background-color:rgb($indigo, $o6);
+    background-image:url('/assets/icons/system/popup-bg-light.png');
+    background-color:$popup-overlay-light;
 }
 
 .dark-theme .popup-menu.active{
-    background-color:rgb($bp, $o8);
+    background-image:url('/assets/icons/system/popup-bg-dark.png');
+    background-color:$popup-overlay-light;
 }
 
-.light-theme .top-nav{
-    background-color:rgb($bp, $o7);
+.light-theme #top-nav{
+    background-color:rgb($g2, $o7);
 
 }
 
-.dark-theme .top-nav{
-    background-color:rgb($bt, $o7);
+.dark-theme #top-nav{
+    background-color:rgb($g6, $o7);
 }

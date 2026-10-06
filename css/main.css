@@ -11982,6 +11982,9 @@ header {
   .nav-item {
     width: 50%;
   }
+  .post {
+    width: 75%;
+  }
 }
 body.light-theme {
   background-image: url("/assets/icons/system/bg-light.png");
@@ -11990,23 +11993,23 @@ body.light-theme {
 
 body.dark-theme {
   background-image: url("/assets/icons/system/bg-dark.png");
-  background-color: rgb(26, 23, 40);
+  background-color: rgb(82, 69, 122);
 }
 
 .light-theme header {
-  background: linear-gradient(180deg, rgb(206, 190, 255) 90%, rgb(189, 254, 230) 100%);
+  background: linear-gradient(180deg, rgb(206, 190, 255) 95%, rgb(189, 254, 230) 100%);
 }
 
 .dark-theme header {
-  background: linear-gradient(180deg, rgb(26, 23, 40) 90%, rgb(206, 190, 255) 100%);
+  background: linear-gradient(180deg, rgb(26, 23, 40) 95%, rgb(206, 190, 255) 100%);
 }
 
 .light-theme footer {
-  background: linear-gradient(180deg, rgb(206, 190, 255) 5%, rgb(189, 254, 230) 90%);
+  background: linear-gradient(180deg, rgb(189, 254, 230) 5%, rgb(206, 190, 255) 25%);
 }
 
 .dark-theme footer {
-  background: linear-gradient(180deg, rgb(206, 190, 255) 5%, rgb(26, 23, 40) 90%);
+  background: linear-gradient(180deg, rgb(206, 190, 255) 5%, rgb(26, 23, 40) 25%);
 }
 
 .light-theme .module {
@@ -12026,17 +12029,19 @@ body.dark-theme {
 }
 
 .light-theme .popup-menu.active {
-  background-color: rgba(157, 151, 197, 0.6);
+  background-image: url("/assets/icons/system/popup-bg-light.png");
+  background-color: rgba(189, 254, 230, 0.4);
 }
 
 .dark-theme .popup-menu.active {
-  background-color: rgba(206, 190, 255, 0.8);
+  background-image: url("/assets/icons/system/popup-bg-dark.png");
+  background-color: rgba(189, 254, 230, 0.4);
 }
 
-.light-theme .top-nav {
-  background-color: rgba(206, 190, 255, 0.7);
+.light-theme #top-nav {
+  background-color: rgba(220, 208, 254, 0.7);
 }
 
-.dark-theme .top-nav {
-  background-color: rgba(189, 254, 230, 0.7);
+.dark-theme #top-nav {
+  background-color: rgba(26, 23, 40, 0.7);
 }/*# sourceMappingURL=main.css.map */

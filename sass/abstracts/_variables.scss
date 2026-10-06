@@ -31,10 +31,10 @@ $o9:0.9;
 $o0:0;
 // gradients //
 
-$light-header-gradient:linear-gradient(180deg, $bp 90%, $bt 100%);
-$light-footer-gradient:linear-gradient(180deg, $bp 5%, $bt 90%);
-$dark-header-gradient:linear-gradient(180deg, $g6 90%, $bp 100%);
-$dark-footer-gradient:linear-gradient(180deg, $bp 5%, $g6 90%);
+$light-header-gradient:linear-gradient(180deg, $bp 95%, $bt 100%);
+$light-footer-gradient:linear-gradient(180deg, $bt 5%, $bp 25%);
+$dark-header-gradient:linear-gradient(180deg, $g6 95%, $bp 100%);
+$dark-footer-gradient:linear-gradient(180deg, $bp 5%, $g6 25%);
 
 // theming //
 
@@ -44,6 +44,11 @@ $dark-module:rgb($g4, $o9);
 $light-popup-module:rgb($g3, $o9);
 $dark-popup-module:rgb($g6, $o9);
 
+$popup-overlay-light:rgb($bt, $o4);
+$popup-overlay-dark:rgb($bs, $o4);
+
+$light-border:rgb($g3, $o9);
+$dark-border:rgb($g6, $o9);
 
 
 //spacing
